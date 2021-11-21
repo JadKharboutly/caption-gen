@@ -1,0 +1,86 @@
+.font-link {
+  font-family: "Bebas Neue";
+}
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input {
+  width: 400px;
+  height: 400px;
+  /* background-color: lightgoldenrodyellow; */
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.Translate {
+  border: none;
+  height: 40px;
+  width: 400px;
+  font-size: 20px;
+  border-radius: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+.Translate:hover {
+  background-color: lightgray;
+}
+.fileInput {
+  font-size: 20px;
+  margin-left: 90px;
+  user-select: none;
+}
+.outPutBox {
+  display: block;
+  flex-direction: column;
+  width: 800px;
+  height: 350px;
+  overflow-y: scroll;
+  border: black solid 1px;
+  margin-top: 20px;
+  background-color: white;
+}
+h1 {
+  position: absolute;
+  margin-top: 80px;
+  user-select: none;
+  font-family: "Bebas Neue";
+  color: black;
+  font-size: 90px;
+}
+a {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-size: 30px;
+  margin-top: 180px;
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  width: 180px;
+  border-radius: 20px;
+  border: black solid 1px;
+  user-select: none;
+}
+a:hover {
+  background-color: grey;
+}
