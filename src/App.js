@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">Caption Gen</h1>
-      <a target="_blank" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:1baaf230-6b9a-4c38-9c21-8803201b193e">Instructions</a>
+      <a rel="noreferrer noopener" target="_blank" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:1baaf230-6b9a-4c38-9c21-8803201b193e">Instructions</a>
       <div className="input">
         <input className="fileInput" type="file" onChange={GetFile}></input>
         <button className="Translate" onClick={GetSubmit}>Translate</button>
